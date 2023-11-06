@@ -2,11 +2,13 @@
 
 namespace App\Livewire\Tasks;
 
+use Livewire\Attributes\On;
 use Livewire\Component;
 
 class TasksList extends Component
 {
 
+    #[On('task-created')]
 
     public function render()
     {
