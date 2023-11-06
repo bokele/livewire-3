@@ -1,6 +1,6 @@
 <?php
 
-use App\Livewire\Task\TasksIndex;
+use App\Livewire\Tasks\TasksIndex;
 use Illuminate\Support\Facades\Route;
 
 /*
